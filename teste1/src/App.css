@@ -1,0 +1,58 @@
+/* Centralizar o formulário no meio da página */
+.custom-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 50px); /* Altura total da página menos a altura do footer */
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/968/633/non_2x/abstract-seamless-white-and-grey-square-3d-pattern-background-modern-geometric-texture-design-illustration-vector.jpg');
+  margin: 0;
+  background-size: contain;
+  padding: 20px;
+}
+header{
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* Estilo do formulário */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Estilo do botão */
+button {
+  background-color: #333 !important;
+  color: white;
+  border: none !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b3b3b3 !important;
+}
+
+/* Estilo do footer fixado na parte inferior */
+.custom-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
